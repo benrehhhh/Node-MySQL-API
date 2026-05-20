@@ -7,13 +7,13 @@
         "database": "node_mysql_api"
     },
     "secret": "SUPER_SECRET_KEY_REPLACE_ME_IN_PRODUCTION",
-    "emailFrom": "info@my-node-api.com",
+    "emailFrom": "adelbert.kunze8@ethereal.email",
     "smtpOptions": {
         "host": "smtp.ethereal.email",
         "port": 587,
         "auth": {
-            "user": "your_ethereal_user",
-            "pass": "your_ethereal_pass"
+            "user": "adelbert.kunze8@ethereal.email",
+            "pass": "tsFz4PU64KWrGVaZTn"
         }
     }
 }
