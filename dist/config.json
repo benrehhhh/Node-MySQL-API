@@ -1,10 +1,10 @@
 {
     "database": {
-        "host": "mysql.railway.internal",
+        "host": "localhost",
         "port": 3306,
         "user": "root",
-        "password": "OZxsJvANUJivjZRyZTfnQEsOsQEsTVAb",
-        "database": "railway"
+        "password": "tedert",
+        "database": "node_mysql_api"
     },
     "secret": "SUPER_SECRET_KEY_REPLACE_ME_IN_PRODUCTION",
     "emailFrom": "adelbert.kunze8@ethereal.email",
