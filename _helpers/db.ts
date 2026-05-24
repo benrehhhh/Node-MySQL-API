@@ -15,9 +15,9 @@ async function initialize() {
     const password = process.env.DB_PASSWORD!;
     const database = process.env.DB_NAME!;
 
-    const connection = await mysql.createConnection({ host, port, user, password });
-
-    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${database}\`;`);
+    // Removed these two lines:
+    // const connection = await mysql.createConnection({ host, port, user, password });
+    // await connection.query(`CREATE DATABASE IF NOT EXISTS \`${database}\`;`);
 
     const sequelize = new Sequelize(database, user, password, {
         host,
